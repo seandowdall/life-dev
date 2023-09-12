@@ -47,7 +47,7 @@ export default function JournalPage() {
               </CardContent>
               <CardFooter>
                 <Link href="">
-                  <Button>Try Free</Button>
+                  <Button>View Entry</Button>
                 </Link>
               </CardFooter>
             </Card>
@@ -64,7 +64,7 @@ export default function JournalPage() {
               </CardContent>
               <CardFooter>
                 <Link href="/courses/python-basics">
-                  <Button>Try Free</Button>
+                  <Button>View Entry</Button>
                 </Link>
               </CardFooter>
             </Card>
@@ -80,7 +80,7 @@ export default function JournalPage() {
                 </p>
               </CardContent>
               <CardFooter>
-                <Button>Try Free</Button>
+                <Button>View Entry</Button>
               </CardFooter>
             </Card>
           </div>
