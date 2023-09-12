@@ -109,6 +109,9 @@ const Navbar = () => {
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
+            <NavigationMenuItem>
+              <Button>Log In</Button>
+            </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
       </div>
