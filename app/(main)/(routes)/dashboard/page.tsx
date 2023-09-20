@@ -19,48 +19,96 @@ export const metadata: Metadata = {
 
 export default function DashboardPage() {
   return (
-    <div className="container mx-auto flex flex-row justify-between space-x-5">
-      <div className="w-full">
-        <Card>
-          <CardHeader>
-            <CardTitle>Card Title</CardTitle>
-            <CardDescription>Card Description</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <p>Card Content</p>
-          </CardContent>
-          <CardFooter>
-            <p>Card Footer</p>
-          </CardFooter>
-        </Card>
-      </div>
-      <div className="w-full">
-        <Card>
-          <CardHeader>
-            <CardTitle>Card Title</CardTitle>
-            <CardDescription>Card Description</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <p>Card Content</p>
-          </CardContent>
-          <CardFooter>
-            <p>Card Footer</p>
-          </CardFooter>
-        </Card>
-      </div>
-      <div className="w-full">
-        <Card>
-          <CardHeader>
-            <CardTitle>Card Title</CardTitle>
-            <CardDescription>Card Description</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <p>Card Content</p>
-          </CardContent>
-          <CardFooter>
-            <p>Card Footer</p>
-          </CardFooter>
-        </Card>
+    <div className="container mx-auto">
+      <div className="flex flex-col space-y-10">
+        <div className="flex flex-row justify-between space-x-5">
+          <div className="w-full">
+            <Card>
+              <CardHeader>
+                <CardTitle>Card Title</CardTitle>
+                <CardDescription>Card Description</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p>Card Content</p>
+              </CardContent>
+              <CardFooter>
+                <p>Card Footer</p>
+              </CardFooter>
+            </Card>
+          </div>
+          <div className="w-full">
+            <Card>
+              <CardHeader>
+                <CardTitle>Card Title</CardTitle>
+                <CardDescription>Card Description</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p>Card Content</p>
+              </CardContent>
+              <CardFooter>
+                <p>Card Footer</p>
+              </CardFooter>
+            </Card>
+          </div>
+          <div className="w-full">
+            <Card>
+              <CardHeader>
+                <CardTitle>Card Title</CardTitle>
+                <CardDescription>Card Description</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p>Card Content</p>
+              </CardContent>
+              <CardFooter>
+                <p>Card Footer</p>
+              </CardFooter>
+            </Card>
+          </div>
+        </div>
+        <div className=" flex flex-row justify-between space-x-5">
+          <div className="w-full">
+            <Card>
+              <CardHeader>
+                <CardTitle>Card Title</CardTitle>
+                <CardDescription>Card Description</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p>Card Content</p>
+              </CardContent>
+              <CardFooter>
+                <p>Card Footer</p>
+              </CardFooter>
+            </Card>
+          </div>
+          <div className="w-full">
+            <Card>
+              <CardHeader>
+                <CardTitle>Card Title</CardTitle>
+                <CardDescription>Card Description</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p>Card Content</p>
+              </CardContent>
+              <CardFooter>
+                <p>Card Footer</p>
+              </CardFooter>
+            </Card>
+          </div>
+          <div className="w-full">
+            <Card>
+              <CardHeader>
+                <CardTitle>Card Title</CardTitle>
+                <CardDescription>Card Description</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p>Card Content</p>
+              </CardContent>
+              <CardFooter>
+                <p>Card Footer</p>
+              </CardFooter>
+            </Card>
+          </div>
+        </div>
       </div>
     </div>
   );
