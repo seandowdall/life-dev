@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
 export default function DashboardPage() {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto mt-20">
       <div className="flex flex-col space-y-10">
         <div className="flex flex-row justify-between space-x-5">
           <div className="w-full">
