@@ -17,6 +17,8 @@ import {
   PlusCircle,
   PlusIcon,
   PlusSquareIcon,
+  SearchXIcon,
+  ShieldX,
 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -61,10 +63,10 @@ export default function DashboardPage() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <p>Card Content</p>
+                <p>21 Days</p>
               </CardContent>
               <CardFooter>
-                <p>Card Footer</p>
+                <p>Lets keep this show on the road</p>
               </CardFooter>
             </Card>
           </div>
